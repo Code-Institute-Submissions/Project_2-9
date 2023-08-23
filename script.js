@@ -35,6 +35,19 @@ Game.prototype.showTextNode = function (textNodeIndex) {
   this.manageButtons(textNode.options);
 };
 
+// Function to manage and display buttons within the text nodes
+Game.prototype.manageButtons = function (options) {
+  // Clear existing buttons
+  this.clearButtons();
+
+  // Create buttons for each option
+  for (var i = 0; i < options.length; i++) {
+    var option = options[i];
+    var button = this.createButton(option);
+    this.buttonsContainerElement.appendChild(button);
+  }
+};
+
 // Text Nodes starting here
 
 const textNodes = [
