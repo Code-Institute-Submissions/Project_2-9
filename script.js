@@ -11,6 +11,13 @@ window.onload = function () {
   game.initialize();
 };
 
+function Game() {
+    // Get references to DOM elements
+    this.storyElement = document.querySelector("#story");
+    this.buttonsContainerElement = document.querySelector("#buttons-container");
+    this.backgroundElement = document.querySelector("#background");
+  }
+
 // Text Nodes starting here
 
 const textNodes = [
