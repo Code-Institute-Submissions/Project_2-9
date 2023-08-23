@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#background-image {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background.with-image {
+    background-image: url("");
+  }
