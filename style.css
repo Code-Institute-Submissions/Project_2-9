@@ -42,4 +42,10 @@ body {
   color: white;
   text-align: justify;
   }
+
+  .buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
   
