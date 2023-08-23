@@ -48,6 +48,18 @@ Game.prototype.manageButtons = function (options) {
   }
 };
 
+// Setting text, class, and click event handler
+Game.prototype.createButton = function (option) {
+  var button = document.createElement("button");
+  button.innerText = option.text;
+  button.className = "button";
+  var self = this;
+  button.onclick = function () {
+    self.selectOption(option);
+  };
+  return button;
+};
+
 // Text Nodes starting here
 
 const textNodes = [
