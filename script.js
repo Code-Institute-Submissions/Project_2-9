@@ -101,4 +101,34 @@ const textNodes = [
         },
       ],
     },
+    {
+      id: 2,
+      text: "After the world ran out of natural resources, it became chaos. It takes a super heroine to save humanity. It is Phosphorus Woman. She must defeat the Uranium Emperor.",
+      img: "./assets/beginning1.png",
+      options: [
+        {
+          text: "Jump and search for the Uranium Emperor.",
+          nextText: 3,
+        },
+        {
+          text: "Better not to jump.",
+          nextText: 600,
+        },
+      ],
+    },
+    {
+      id: 3,
+      text: "Phosphorus Woman swung up on her motorcycle and set on her way. The Uranium Emperor is already preparing for her. Are you ready to save the world?",
+      img: "./assets/motorbike2.png",
+      options: [
+        {
+          text: "Let's fight!",
+          nextText: 4,
+        },
+        {
+          text: "Unsure. I am scared.",
+          nextText: 601,
+        },
+      ],
+    },
 ]
