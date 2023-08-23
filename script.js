@@ -67,6 +67,24 @@ Game.prototype.clearButtons = function () {
   }
 };
 
+// Handle option selection
+Game.prototype.selectOption = function (option) {
+  if (option.action === "link") {
+    window.open(option.linkUrl, "_blank");
+    return;
+  }
+
+  var nextTextNodeId = option.nextText;
+
+  if (option.action === "") {
+    console.log("");
+  } else {
+    // Display the next text node based on the chosen option
+    this.showTextNode(nextTextNodeId);
+  }
+};
+
+
 // Text Nodes starting here
 
 const textNodes = [
