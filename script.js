@@ -10,3 +10,21 @@ var game = new Game();
 window.onload = function () {
   game.initialize();
 };
+
+// Text Nodes starting here
+
+const textNodes = [
+
+    // Story Forward
+    {
+      id: 1,
+      text: "Are you ready to save the world?",
+      img: "./assets/title_screen.png",
+      options: [
+        {
+          text: "PLAY",
+          nextText: 2,
+        },
+      ],
+    },
+]
