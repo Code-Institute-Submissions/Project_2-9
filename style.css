@@ -4,8 +4,10 @@ body {
     padding: 0;
 }
 
-#background-image {
+#background {
     width: 100%;
+    height: 640px;
+    border: 1.6px;
     background-size: cover;
     background-position: center;
 }
