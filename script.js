@@ -60,6 +60,13 @@ Game.prototype.createButton = function (option) {
   return button;
 };
 
+// Clear existing buttons
+Game.prototype.clearButtons = function () {
+  while (this.buttonsContainerElement.firstChild) {
+    this.buttonsContainerElement.removeChild(this.buttonsContainerElement.firstChild);
+  }
+};
+
 // Text Nodes starting here
 
 const textNodes = [
