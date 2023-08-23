@@ -31,6 +31,9 @@ Game.prototype.showTextNode = function (textNodeIndex) {
   this.backgroundElement.classList.add("with-image");
   // Set the background image based on the text node's image URL
   this.backgroundElement.style.backgroundImage = "url('" + textNode.img + "')";
+  // Function to loop buttons for each option in the text node
+  this.manageButtons(textNode.options);
+};
 
 // Text Nodes starting here
 
