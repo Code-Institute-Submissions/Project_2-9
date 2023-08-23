@@ -18,6 +18,13 @@ function Game() {
     this.backgroundElement = document.querySelector("#background");
   }
 
+  // Display a text node
+Game.prototype.showTextNode = function (textNodeIndex) {
+    // Find the text node with the specified index
+    var textNode = textNodes.find(function (node) {
+      return node.id === textNodeIndex;
+    });
+
 // Text Nodes starting here
 
 const textNodes = [
