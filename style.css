@@ -60,3 +60,12 @@ body {
   .button:hover {
     background-color: var(--button-hover-background-color);
   }
+
+  /* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  #container {
+    width: 80%;
+    gap: 20px;
+  }
+}
