@@ -74,4 +74,9 @@ body {
     border-radius: 6.4px;
     border-width: 1.28px;
   }
+
+  .button {
+    font-size: 12px;
+    padding: 6px;
+  }
 }
