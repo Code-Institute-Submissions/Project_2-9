@@ -68,4 +68,10 @@ body {
     width: 80%;
     gap: 20px;
   }
+
+  #background {
+    height: 512px;
+    border-radius: 6.4px;
+    border-width: 1.28px;
+  }
 }
