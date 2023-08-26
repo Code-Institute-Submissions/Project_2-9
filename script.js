@@ -40,49 +40,7 @@ Game.prototype.manageInput = function (options) {
   // Clear existing input field
   this.clearInput();
 
-  // Create buttons for each option
-  for (var i = 0; i < options.length; i++) {
-    var option = options[i];
-    var button = this.createButton(option);
-    this.buttonsContainerElement.appendChild(button);
-  }
-};
 
-// Setting text, class, and click event handler
-Game.prototype.createButton = function (option) {
-  var button = document.createElement("button");
-  button.innerText = option.text;
-  button.className = "button";
-  var self = this;
-  button.onclick = function () {
-    self.selectOption(option);
-  };
-  return button;
-};
-
-// Clear existing buttons
-Game.prototype.clearButtons = function () {
-  while (this.buttonsContainerElement.firstChild) {
-    this.buttonsContainerElement.removeChild(this.buttonsContainerElement.firstChild);
-  }
-};
-
-// Handle option selection
-Game.prototype.selectOption = function (option) {
-  if (option.action === "link") {
-    window.open(option.linkUrl, "_blank");
-    return;
-  }
-
-  var nextTextNodeId = option.nextText;
-
-  if (option.action === "") {
-    console.log("");
-  } else {
-    // Display the next text node based on the chosen option
-    this.showTextNode(nextTextNodeId);
-  }
-};
 
 
 // Text Nodes starting here
