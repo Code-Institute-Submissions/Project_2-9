@@ -42,6 +42,8 @@ Game.prototype.manageInput = function (options) {
 
   // Create input field for options
   const input = document.createElement("input");
+    // Set placeholder text
+    input.placeholder = "Enter your choice...";
 
 
 // Text Nodes starting here
