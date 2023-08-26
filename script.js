@@ -46,6 +46,8 @@ Game.prototype.manageInput = function (options) {
     input.placeholder = "Enter your choice...";
     // Set class for styling
   input.className = "input";
+    // Append the input element to the input container
+    this.inputContainerElement.appendChild(input);
 
 
 // Text Nodes starting here
