@@ -86,6 +86,9 @@ Game.prototype.showError = function (message) {
   const errorElement = document.createElement("div");
   errorElement.className = "error-message";
   errorElement.textContent = message;
+    // Append error message element to the input container
+    this.inputContainerElement.appendChild(errorElement);
+  };
 
 // Text Nodes starting here
 const textNodes = [
