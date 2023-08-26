@@ -55,6 +55,9 @@ Game.prototype.manageInput = function (options) {
     // Set class for styling
   submitButton.className = "submit-button";
   const self = this;
+  // Handle submit button click event
+submitButton.onclick = function () {
+  const userInput = input.value.trim().toLowerCase();
 
 
 // Text Nodes starting here
