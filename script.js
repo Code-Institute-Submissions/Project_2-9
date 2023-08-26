@@ -40,7 +40,8 @@ Game.prototype.manageInput = function (options) {
   // Clear existing input field
   this.clearInput();
 
-
+  // Create input field for options
+  const input = document.createElement("input");
 
 
 // Text Nodes starting here
