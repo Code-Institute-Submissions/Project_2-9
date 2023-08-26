@@ -61,6 +61,12 @@ body {
     background-color: var(--button-hover-background-color);
   }
 
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
   /* Media Queries for Responsive Design */
 
 @media (max-width: 768px) {
