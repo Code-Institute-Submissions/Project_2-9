@@ -35,10 +35,10 @@ Game.prototype.showTextNode = function (textNodeIndex) {
   this.manageInput(textNode.options);
 };
 
-// Function to manage and display buttons within the text nodes
-Game.prototype.manageButtons = function (options) {
-  // Clear existing buttons
-  this.clearButtons();
+// Function to manage and display input field for options
+Game.prototype.manageInput = function (options) {
+  // Clear existing input field
+  this.clearInput();
 
   // Create buttons for each option
   for (var i = 0; i < options.length; i++) {
