@@ -130,97 +130,97 @@ const textNodes = [
     },
     {
       id: 3,
-      text: "Phosphorus Woman swung up on her motorcycle and set on her way. The Uranium Emperor is already preparing for her. Are you ready to save the world?",
+      text: "Phosphorus Woman swung up on her motorcycle and set on her way. The Uranium Emperor is already preparing for her. Are you ready to save the world? Type: # Fight # for let's fight! Or type: # Unsure # for unsure, I am scared.",
       img: "./assets/motorbike2.png",
       options: [
         {
-          text: "Let's fight!",
+          text: "Fight",
           nextText: 4,
         },
         {
-          text: "Unsure. I am scared.",
+          text: "Unsure",
           nextText: 601,
         },
       ],
     },
     {
       id: 4,
-      text: "The Uranium Emperor is already expecting you.",
+      text: "The Uranium Emperor is already expecting you. Type: # Eye contact # for looking deep into the eyes of the Uranium Emperor. Or type: # Fear # for better to go home.",
       img: "./assets/imperator3.png",
       options: [
         {
-          text: "Looking deep into the eyes of the Uranium Emperor.",
+          text: "Eye contact",
           nextText: 5,
         },
         {
-          text: "Better to go home.",
+          text: "Fear",
           nextText: 602,
         },
       ],
     },
     {
       id: 5,
-      text: "The final battle to save humanity is at hand. You look deep into the eyes of the Uranium Emperor. You will rescue the world. You just have to want to.",
+      text: "The final battle to save humanity is at hand. You look deep into the eyes of the Uranium Emperor. You will rescue the world. You just have to want to. Type: # Sword # for take out your sword! Or type: # Netflix # for Unsure, better watch Netflix.",
       img: "./assets/p_woman4.png",
       options: [
         {
-          text: "Take out your sword!",
+          text: "Sword",
           nextText: 6, 
         },
         {
-          text: "Unsure. Better watch Netflix.", // Link to GANE OVER Screen
+          text: "Netflix", // Link to GANE OVER Screen
           nextText: 666,
         },
       ],
     },
     {
       id: 6,
-      text: "You hold your sword in your hand and you will defeat the Uranium Emperor. You are powerful. But still be careful. The Emperor is very clever...",
+      text: "You hold your sword in your hand and you will defeat the Uranium Emperor. You are powerful. But still be careful. The Emperor is very clever... Type: # Attack # for attacking the Uranium Emperor or type: # Dodging # for a smart move like in the Matrix.",
       img: "./assets/sword.png",
       options: [
         {
-          text: "Attack!",
+          text: "Attack",
           nextText: 7,
         },
         {
-          text: "Dodging.",
+          text: "Dodging",
           nextText: 603,
         },
       ],
     },
     {
       id: 7,
-      text: "Great stuff! You hit the Uranium Emperor hard.",
+      text: "Great stuff! You hit the Uranium Emperor hard. Type: # Attack # for attacking the Uranium Emperor again or type: # Dodging # for a smart move like in the Matrix 4.",
       img: "./assets/attack1.png",
       options: [
         {
-          text: "Attack!",
+          text: "Attack",
           nextText: 8,
         },
         {
-          text: "Dodging.",
+          text: "Dodging",
           nextText: 604,
         },
       ],
     },
     {
       id: 8,
-      text: "Best attack ever! The Uranium Emperor will lose!",
+      text: "Best attack ever! The Uranium Emperor will lose! Type: # One last hit # for your final attack.",
       img: "./assets/attack2.png",
       options: [
         {
-          text: "One last hit.",
+          text: "One last hit",
           nextText: 9,
         },
       ],
     },
     {
       id: 9,
-      text: "You have triumphed. The Uranium Emperor is now defeated. You are unkillable. Have you noticed that the only way to be GAME OVER is to start watching Netflix?",
+      text: "You have triumphed. The Uranium Emperor is now defeated. You are unkillable. Have you noticed that the only way to be GAME OVER is to start watching Netflix? Type: # Play again # if you want another walktrough.",
       img: "./assets/won.png",
       options: [
         {
-          text: "Play again.",
+          text: "Play again",
           nextText: 1,
         },
       ],
@@ -229,11 +229,11 @@ const textNodes = [
     // GANE OVER Screen
     {
       id: 666,
-      text: "GAME OVER! You cannot escape the Uranium Emperor. You can only defeat him.",
+      text: "GAME OVER! You cannot escape the Uranium Emperor. You can only defeat him. Type: # Try again # if you want another chance.",
       img: "./assets/game_over.png",
       options: [
         {
-          text: "Try again.",
+          text: "Try again",
           nextText: 1,
         },
       ],
@@ -242,55 +242,55 @@ const textNodes = [
     // Story Backward
     {
       id: 600,
-      text: "You are a super heroine. You are not scared. Jump and save the world!",
+      text: "You are a super heroine. You are not scared. Jump and save the world! Type: # Move forward # because you have to go and move forward. It's your job!",
       img: "./assets/not_jump.png",
       options: [
         {
-          text: "Go and move forward. It's your job!",
+          text: "Move forward",
           nextText: 3,
         },
       ],
     },
     {
       id: 601,
-      text: "Phosphorus Woman is in her secret underground cave. Her decision is made. The entire world must be rescued.",
+      text: "Phosphorus Woman is in her secret underground cave. Her decision is made. The entire world must be rescued. Type: # Move forward # because you have to go and move forward. It's your job!",
       img: "./assets/cave.png",
       options: [
         {
-          text: "Go and move forward. It's your job!",
+          text: "Move forward",
           nextText: 4,
         },
       ],
     },
     {
       id: 602,
-      text: "Being at home in the cave does not keep you happy. You have to save the world.",
+      text: "Being at home in the cave does not keep you happy. You have to save the world. Type: # Move forward # because you have to go and move forward. It's your job!",
       img: "./assets/underground.png",
       options: [
         {
-          text: "Go and move forward. It's your job!",
+          text: "Move forward",
           nextText: 5,
         },
       ],
     },
     {
       id: 603,
-      text: "Perfect. The Uranium Emperor could not hit you.",
+      text: "Perfect. The Uranium Emperor could not hit you. Type: # Attack # to make an attack stronger then Arnold Schwarzenegger.",
       img: "./assets/dodging1.png",
       options: [
         {
-          text: "Attack!",
+          text: "Attack",
           nextText: 7,
         },
       ],
     },
     {
       id: 604,
-      text: "Perfect. The Uranium Emperor had no chance to hit you.",
+      text: "Perfect. The Uranium Emperor had no chance to hit you. Type: # Attack # to make an attack stronger then Jean Claude Van Damme.",
       img: "./assets/dodging2.png",
       options: [
         {
-          text: "Attack!",
+          text: "Attack",
           nextText: 8,
         },
       ],
