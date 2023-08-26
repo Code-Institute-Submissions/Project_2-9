@@ -78,32 +78,33 @@ Game.prototype.clearInput = function () {
   }
 };
 
+
 // Text Nodes starting here
 const textNodes = [
 
     // Story Forward
     {
       id: 1,
-      text: "Are you ready to save the world?",
+      text: "Are you ready to save the world? Type: # Play # for start playing.",
       img: "./assets/title_screen.png",
       options: [
         {
-          text: "PLAY",
+          text: "Play",
           nextText: 2,
         },
       ],
     },
     {
       id: 2,
-      text: "After the world ran out of natural resources, it became chaos. It takes a super heroine to save humanity. It is Phosphorus Woman. She must defeat the Uranium Emperor.",
+      text: "After the world ran out of natural resources, it became chaos. It takes a super heroine to save humanity. It is Phosphorus Woman. She must defeat the Uranium Emperor. Type: # Jump # for jump and search for the Uranium Emperor or type: # Home # for better not to jump.",
       img: "./assets/beginning1.png",
       options: [
         {
-          text: "Jump and search for the Uranium Emperor.",
+          text: "Jump",
           nextText: 3,
         },
         {
-          text: "Better not to jump.",
+          text: "Home",
           nextText: 600,
         },
       ],
