@@ -60,7 +60,10 @@ submitButton.onclick = function () {
   const userInput = input.value.trim().toLowerCase();
     // Find the option with matching user input
     const option = options.find(opt => opt.text.toLowerCase() === userInput);
-    if (option)
+    if (option) {
+      // Show the next text node based on the option's nextText ID
+      self.showTextNode(option.nextText);
+    } else
 
 
 // Text Nodes starting here
