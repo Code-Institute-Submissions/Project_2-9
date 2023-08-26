@@ -13,7 +13,7 @@ window.onload = function () {
 
 function Game() {
     // Get references to DOM elements
-    this.storyElement = document.querySelector("#story");
+    this.storyElement = document.querySelector("#story-text");
     this.inputContainerElement = document.querySelector("#input-container");
     this.backgroundElement = document.querySelector("#background");
   }
