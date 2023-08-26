@@ -82,7 +82,10 @@ Game.prototype.clearInput = function () {
 Game.prototype.showError = function (message) {
     // Clear existing error message
     this.clearError();
-
+  // Create error message element
+  const errorElement = document.createElement("div");
+  errorElement.className = "error-message";
+  errorElement.textContent = message;
 
 // Text Nodes starting here
 const textNodes = [
