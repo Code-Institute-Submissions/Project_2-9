@@ -80,6 +80,8 @@ Game.prototype.clearInput = function () {
 
 // Function to show error message
 Game.prototype.showError = function (message) {
+    // Clear existing error message
+    this.clearError();
 
 
 // Text Nodes starting here
