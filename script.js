@@ -78,6 +78,9 @@ Game.prototype.clearInput = function () {
   }
 };
 
+// Function to show error message
+Game.prototype.showError = function (message) {
+
 
 // Text Nodes starting here
 const textNodes = [
