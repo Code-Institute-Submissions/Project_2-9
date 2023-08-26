@@ -90,6 +90,14 @@ Game.prototype.showError = function (message) {
     this.inputContainerElement.appendChild(errorElement);
   };
 
+  // Function to clear error message
+Game.prototype.clearError = function () {
+  const errorElement = this.inputContainerElement.querySelector(".error-message");
+  if (errorElement) {
+    this.inputContainerElement.removeChild(errorElement);
+  }
+};
+
 // Text Nodes starting here
 const textNodes = [
 
