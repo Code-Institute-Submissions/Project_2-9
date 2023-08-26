@@ -52,6 +52,8 @@ Game.prototype.manageInput = function (options) {
   const submitButton = document.createElement("button");
     // Set the button text
     submitButton.innerText = "Submit";
+    // Set class for styling
+  submitButton.className = "submit-button";
 
 
 // Text Nodes starting here
