@@ -48,6 +48,8 @@ Game.prototype.manageInput = function (options) {
   input.className = "input";
     // Append the input element to the input container
     this.inputContainerElement.appendChild(input);
+    // Create a new button element
+  const submitButton = document.createElement("button");
 
 
 // Text Nodes starting here
