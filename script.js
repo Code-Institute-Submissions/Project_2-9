@@ -71,6 +71,12 @@ submitButton.onclick = function () {
     this.inputContainerElement.appendChild(submitButton);
   };
 
+  // Clear existing input field
+Game.prototype.clearInput = function () {
+  while (this.inputContainerElement.firstChild) {
+    this.inputContainerElement.removeChild(this.inputContainerElement.firstChild);
+  }
+};
 
 // Text Nodes starting here
 const textNodes = [
