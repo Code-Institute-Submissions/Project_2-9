@@ -63,7 +63,13 @@ submitButton.onclick = function () {
     if (option) {
       // Show the next text node based on the option's nextText ID
       self.showTextNode(option.nextText);
-    } else
+    } else {
+      // Show error message if the user input doesn't match any option
+      self.showError("You typed something wrong. Please follow the instructions of the storyline.");
+    }
+  };
+    this.inputContainerElement.appendChild(submitButton);
+  };
 
 
 // Text Nodes starting here
