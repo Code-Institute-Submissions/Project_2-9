@@ -66,6 +66,13 @@ submitButton.onclick = function () {
       self.showError("You typed something wrong. Please follow the instructions of the storyline.");
     }
   };
+    // Handle input field keydown event (Enter key)
+    input.addEventListener("keydown", function (event) {
+      if (event.key === "Enter") {
+        submitButton.click(); // Trigger the submit button click event
+      }
+    });
+    
     this.inputContainerElement.appendChild(submitButton);
   };
 
