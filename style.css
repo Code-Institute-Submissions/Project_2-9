@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 100vh;
     margin: 0;
     padding: 0;
     background: var(--background-color);
@@ -58,23 +57,3 @@ body {
     font-size: 14px;
     margin-top: 5px;
   }
-
-  /* Media Queries for Responsive Design */
-
-@media (max-width: 768px) {
-  #container {
-    width: 80%;
-    gap: 20px;
-  }
-
-  #background {
-    height: 512px;
-    border-radius: 6.4px;
-    border-width: 1.28px;
-  }
-
-  .button {
-    font-size: 12px;
-    padding: 6px;
-  }
-}
