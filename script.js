@@ -30,7 +30,7 @@ Game.prototype.showTextNode = function (textNodeIndex) {
   // Add the "with-image" class to enable background image display
   this.backgroundElement.classList.add("with-image");
   // Set the background image based on the text node's image URL
-  this.backgroundElement.style.backgroundImage = "url('" + textNode.img + "')";
+  this.backgroundElement.src = textNode.img;
   // Function to display input field for options
   this.manageInput(textNode.options);
 };
