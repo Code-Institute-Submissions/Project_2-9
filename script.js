@@ -27,8 +27,6 @@ Game.prototype.showTextNode = function (textNodeIndex) {
 
    // Update the story text content
   this.storyElement.textContent = textNode.text;
-  // Add the "with-image" class to enable background image display
-  this.backgroundElement.classList.add("with-image");
   // Set the background image based on the text node's image URL
   this.backgroundElement.src = textNode.img;
   // Function to display input field for options
