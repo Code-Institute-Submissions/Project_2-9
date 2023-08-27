@@ -34,24 +34,6 @@ body {
   text-align: justify;
   }
 
-  .buttons-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  .button {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    padding: 9.6px;
-    background-color: var(--button-background-color);
-    color: var(--button-color);
-  }
-  
-  .button:hover {
-    background-color: var(--button-hover-background-color);
-  }
-
   .error-message {
     color: red;
     font-size: 14px;
