@@ -1,9 +1,62 @@
-## General Information:
-Interactive Front End Application
-More or less its only possible to move forward.
+# PHOSPHORUS WOMAN THE GAME
+
+
+## Introduction:
+The fictional character Phosphorus Woman was part of a film project about our resource problems.
+As a superheroine, she has to fight against the Uranium Emperor.
+Actually, this project was planned as a small 2D fighting game.
+The video/photo material should be converted into 2D sprite sheets (like in Mortal Kombat 1-3).
+Unfortunately this was not possible in the short deadline.
+As an MVP approach it has now become a text based game.
+The first iteration included 2 buttons so that a user can navigate through the story.
+To improve the gamification factor a bit, there is now an input field for the texts instead of the buttons.
+The context of the game does not take itself too seriously.
+The content of the game is produced by the author.
+The best way to try the game is in a web browser, not as a mobile version. The application is responsive but the recommendation is to use it not mobile, because it's complete text based.
+
+
+## Features:
+PHOSPHORUS WOMAN THE GAME is an interactive Front End Application.
+This MVP sets the focus on the functionality and is simple as possible.
+More or less its only possible to move forward in the game.
 When a user decides to go back in the story, a motivation screen is displayed, motivating the user to continue with the story again.
 There is only one change to be GAME OVER.
-The message is, never give up. There is always a change to move farward.
+The message is, never give up. There is always a chance to move farward.
+
+- The storyline offers 2 possible choices for the user. The motivation screen always offers 1 choice to move forward. The possible choices are marked in the storyline. The screenshot shows an example of two possible choices in the game: "Jump" and "Home".
+
+![choices](/assets/documentation/choices.png "choices")
+
+- The input field: the decisions are written into the input field and submitted to the game via the submit button. It is also possible not to use the button and press enter instead.
+
+![input_field](/assets/documentation/input_field.png "input_field")
+
+- The error handling: as soon as a user types something that the game does not specify as a decision, an error message is displayed informing the user that something false has been entered. The user can read the possible decisions contained in the storyline.
+
+![error_handling](/assets/documentation/error_handling.png "error_handling")
+
+- The storyline: the storyline is told through the text as well as supported by images. To give the game a retro feel, the images have an 8 bit look.
+
+![story](/assets/documentation/story.png "story")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1.	Game Initialization:
 •	The Game prototype has a method called initialize which is responsible for starting the game by displaying the first text node.
