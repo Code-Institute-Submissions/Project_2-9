@@ -302,4 +302,4 @@ const textNodes = [
         },
       ],
     },
-]
+];

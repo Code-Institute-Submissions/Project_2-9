@@ -12,7 +12,7 @@ The first iteration included 2 buttons so that a user can navigate through the s
 To improve the gamification factor a bit, there is now an input field for the texts instead of the buttons.
 The context of the game does not take itself too seriously.
 The content of the game is produced by the author.
-The best way to try the game is in a web browser, not as a mobile version. The application is responsive but the recommendation is to use it not mobile, because it's complete text based.
+The best way to try the game is in a web browser, not as a mobile version. The application is responsive but the recommendation is to use it in the desktop version, not mobile because it's complete text based.
 
 
 ## Features:
@@ -52,7 +52,7 @@ The storyline is told through the text as well as supported by images. To give t
 
 ## Code Breakdown:
 
-The code is object-oriented with prototype methods. The origin idea behind the prototype methods was, to use part of the code for the more complexer 2D game version of PHOSPHORUS Woman.
+The code is object-oriented with prototype methods. The origin idea behind the prototype methods was, to use part of the code for the more complexer 2D game version of PHOSPHORUS Woman. When I started writing the code, I used a tutorial (link in the credits). I used the tutorial as inspiration for the structure of the text nodes. The code for the tutorial is written state based.
 
 1.	#### Game Initialization:
 -	The Game prototype has a method called initialize which is responsible for starting the game by displaying the first text node.
@@ -114,7 +114,7 @@ The wireframe demonstrate that look:
 
 ![game_design](/assets/documentation/game_design.png "game_design")
 
-## User Storys:
+## User Storys
 
 - As a user, I want to start the game, so that I can begin the adventure and explore the storyline.
 
@@ -142,12 +142,22 @@ The wireframe demonstrate that look:
 
 - As a user, I want the background image to change based on the current part of the story, so that I can visualize the changing scenes.
 
-## Testing User Stories
+## Testing User Stories and Features
 
 Test every function of the game with Function > Expected result  > Action taken > Result
 - Document each functional test with a screenshot
 
 ![user_testing](/assets/documentation/user_testing.png "user_testing")
+
+## Accesability
+
+### Desktop Version
+
+![desktop_access](/assets/documentation/desktop_access.png "desktop_access")
+
+### Mobile Version
+
+![mobile_access](/assets/documentation/mobile_access.png "mobile_access")
 
 
 
