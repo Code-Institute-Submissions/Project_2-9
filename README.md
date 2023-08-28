@@ -104,6 +104,55 @@ The flowchart demonstrate that logic:
 
 ![game_logic](/assets/documentation/game_logic.png "game_logic")
 
+## Wireframes:
+
+- The game design is for every screen exactly the same to keep the MVP simple and prevent overthinking.
+- Black background, a centered image with the storytext below and below of that the input field with the submit button.
+- That means, whatever choice from a user is made, moving forard or backward in the story, looks always exactly the same each other.
+
+The wireframe demonstrate that look:
+
+![game_design](/assets/documentation/game_design.png "game_design")
+
+## User Storys:
+
+- As a user, I want to start the game, so that I can begin the adventure and explore the storyline.
+
+- As a user, I want to read the story text, so that I can understand the context and make informed decisions.
+
+- As a user, I want to see background images that correspond to the different parts of the story, so that I can visualize the setting.
+
+- As a user, I want to see a text input field and a submit button, so that I can interact with the game and make choices.
+
+- As a user, I want to enter my choice in the input field, so that I can proceed with the story based on my decision.
+
+- As a user, I want the game to validate my input choice, so that I receive appropriate feedback if I make a mistake.
+
+- As a user, I want to click the submit button to proceed with my chosen option, so that I can continue the adventure.
+
+- As a user, I want to press the Enter key to submit my choice, so that I can interact with the game using keyboard shortcuts.
+
+- As a user, I want to receive an error message if I enter an invalid choice, so that I can correct my input and make progress.
+
+- As a user, I want the game to show the next part of the story based on my choice, so that I can explore different paths.
+
+- As a user, I want the game to end and restart if there are no more options available, so that I can replay the adventure.
+
+- As a user, I want to easily navigate through the story by making choices, so that I can engage with the narrative.
+
+- As a user, I want the background image to change based on the current part of the story, so that I can visualize the changing scenes.
+
+## Testing User Stories
+
+Test every function of the game with Function > Expected result  > Action taken > Result
+- Document each functional test with a screenshot
+
+![user_testing](/assets/documentation/user_testing.png "user_testing")
+
+
+
+
+
 
 
 ## Credits:
