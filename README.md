@@ -49,6 +49,7 @@ The storyline is told through the text as well as supported by images. To give t
 - also a option to turn the music on/ off
 - more choices and possabilitys to be GAME OVER
 - Image and Text animations
+- multiple languages
 
 ## Code Breakdown:
 
@@ -142,12 +143,111 @@ The wireframe demonstrate that look:
 
 - As a user, I want the background image to change based on the current part of the story, so that I can visualize the changing scenes.
 
-## Testing User Stories and Features
+## Testing User Stories
+
+### *Testing User Storie Starting the Game*
+
+### Expactation:
+The user should be able to begin the adventure and see the first text node displayed.
+
+### Test:
+- Open the game in the browser
+
+### Result:
+- The game initializes, and the first text node is shown along with the corresponding background image.
+
+### *Testing Uaer Storie Reading Story Text*
+
+### Expactation:
+The user should be able to read the context and storyline.
+
+### Test:
+- Observe the displayed story text
+
+### Result:
+- The story text is visible, providing the context and setting for the adventure.
+
+### *Testing User Storie Progressing in the Story*
+
+### Expactation:
+The user should be able to explore different paths and consequences.
+
+### Test:
+- Make choices and observe the story progression
+
+### Result:
+- The story unfolds based on choices, leading to different outcomes
+
+
+### *Testing User Storie Restarting the Game*
+
+### Expactation:
+The user should be able to replay the adventure from the beginning.
+
+### Test:
+- Reach an end point and choose to restart
+
+### Result:
+- The game resets, allowing a new playthrough of the adventure
+
+###  *Testing User Storie Navigating through the Story*
+
+### Expactation:
+The user should be able to easily navigate the story using choices.
+
+### Test:
+- Make choices and follow the storyline
+
+### Result:
+- Choices guide the narrative, enabling smooth navigation through the adventure
+
+### *Testing User Storie Changing Background Images*
+
+### Expactation:
+The user should be able to visualize changing scenes in the story.
+
+### Test:
+- Progress through the story and observe the background changes
+
+### Result:
+- Background images shift according to the narrative, enhancing scene visualization
+
+## Testing Features
 
 Test every function of the game with Function > Expected result  > Action taken > Result
 - Document each functional test with a screenshot
 
 ![user_testing](/assets/documentation/user_testing.png "user_testing")
+
+### Feature: Responsiveness
+
+- ### Expectation:
+The game should be responsive and adapt well to different screen sizes, including mobile devices and tablets.
+
+- ### Action:
+Access the game on various devices with different screen sizes with the dev tools and also with real devices.
+
+- ### Result:
+The game layout and content adjust appropriately to different screen sizes, ensuring a user-friendly experience without any content cutoff or overlapping.
+
+The screenshot is taken from a Samsung Galaxy S20
+
+![responsive_smartphone](/assets/documentation/responsive_smartphone.png "responsive_smartphone")
+
+
+## Not tested:
+- Safari
+- IOS
+
+## Validator Testing:
+- HTML No errors were returned when passing through the official W3C validator 
+- CSS No errors were found when passing through the official (Jigsaw) validator
+
+### W3C Validator
+![w3_fine](/assets/documentation/w3_fine.png "w3_fine")
+
+### Jigsaw Validator
+![jigsaw_fine](/assets/documentation/jigsaw_fine.png "jigsaw_fine")
 
 ## Accesability
 
@@ -159,21 +259,53 @@ Test every function of the game with Function > Expected result  > Action taken 
 
 ![mobile_access](/assets/documentation/mobile_access.png "mobile_access")
 
+## Fixed Bugs:
+
+#### W3C error messages at the HTML page:
+- Error: Bad value for attribute src on the img element
+- Error: Missing alt attribute for the img element
+- the img element had an stray end tag
+
+![w3_test](/assets/documentation/w3_test.png "w3_test")
 
 
+## Unfixed Bugs:
+- If a user has set a language other than english in the browser or uses a translation within the browser, the user believes to have entered the correct selection in the input field.
+As the source in the text nodes is english, the error handling is triggered.
+- As the error message is displayed, the input field slides slightly to the left side of the screen.
 
+### Solutions:
+- Dedicated additional rules for error handling
+- Quick solution is the add additional information to the current error message
+- set CSS styles for the error handling and the input field
 
+The screenshot demonstrates the error handling problem within the german language
 
+![test_german](/assets/documentation/test_german.png "test_german")
+
+### Deployment:
+
+The website has been deployed on GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab.
+- Select the main branch from the source area dropdown menu.
+- Once the main branch is selected, the page will automatically refresh with a detailed ribbon display to indicate successful deployment.
+- The link can be found here - https://renebaumann3000.github.io/Project_2/
 
 ## Credits:
 Inspiration Tutorial:
-https://www.youtube.com/watch?v=R1S_NhKkvGA
+Youtube: https://www.youtube.com/watch?v=R1S_NhKkvGA
+GitHub: https://github.com/WebDevSimplified/JavaScript-Text-Adventure
 
 Titel Screen Design with:
 https://placeit.net/
 
 General Design Inspiration:
 https://www.indieretronews.com/2022/03/golden-seas-high-quality-text-adventure.html
+
+Code is written by myself with help from:
+- Mentor
+- Friends
+
 
 
 
