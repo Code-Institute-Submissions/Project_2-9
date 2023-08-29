@@ -112,7 +112,7 @@ const textNodes = [
     {
       id: 1,
       text: "Are you ready to save the world? Type: # Play # for start playing.",
-      img: "./assets/title_screen.png",
+      img: "./assets/images/title_screen.png",
       options: [
         {
           text: "Play",
@@ -123,7 +123,7 @@ const textNodes = [
     {
       id: 2,
       text: "After the world ran out of natural resources, it became chaos. It takes a super heroine to save humanity. It is Phosphorus Woman. She must defeat the Uranium Emperor. Type: # Jump # for jump and search for the Uranium Emperor or type: # Home # for better not to jump.",
-      img: "./assets/beginning1.png",
+      img: "./assets/images/beginning1.png",
       options: [
         {
           text: "Jump",
@@ -138,7 +138,7 @@ const textNodes = [
     {
       id: 3,
       text: "Phosphorus Woman swung up on her motorcycle and set on her way. The Uranium Emperor is already preparing for her. Are you ready to save the world? Type: # Fight # for let's fight! Or type: # Unsure # for unsure, I am scared.",
-      img: "./assets/motorbike2.png",
+      img: "./assets/images/motorbike2.png",
       options: [
         {
           text: "Fight",
@@ -153,7 +153,7 @@ const textNodes = [
     {
       id: 4,
       text: "The Uranium Emperor is already expecting you. Type: # Eye contact # for looking deep into the eyes of the Uranium Emperor. Or type: # Fear # for better to go home.",
-      img: "./assets/imperator3.png",
+      img: "./assets/images/imperator3.png",
       options: [
         {
           text: "Eye contact",
@@ -168,7 +168,7 @@ const textNodes = [
     {
       id: 5,
       text: "The final battle to save humanity is at hand. You look deep into the eyes of the Uranium Emperor. You will rescue the world. You just have to want to. Type: # Sword # for take out your sword! Or type: # Netflix # for Unsure, better watch Netflix.",
-      img: "./assets/p_woman4.png",
+      img: "./assets/images/p_woman4.png",
       options: [
         {
           text: "Sword",
@@ -183,7 +183,7 @@ const textNodes = [
     {
       id: 6,
       text: "You hold your sword in your hand and you will defeat the Uranium Emperor. You are powerful. But still be careful. The Emperor is very clever... Type: # Attack # for attacking the Uranium Emperor or type: # Dodging # for a smart move like in the Matrix.",
-      img: "./assets/sword.png",
+      img: "./assets/images/sword.png",
       options: [
         {
           text: "Attack",
@@ -198,7 +198,7 @@ const textNodes = [
     {
       id: 7,
       text: "Great stuff! You hit the Uranium Emperor hard. Type: # Attack # for attacking the Uranium Emperor again or type: # Dodging # for a smart move like in the Matrix 4.",
-      img: "./assets/attack1.png",
+      img: "./assets/images/attack1.png",
       options: [
         {
           text: "Attack",
@@ -213,7 +213,7 @@ const textNodes = [
     {
       id: 8,
       text: "Best attack ever! The Uranium Emperor will lose! Type: # One last hit # for your final attack.",
-      img: "./assets/attack2.png",
+      img: "./assets/images/attack2.png",
       options: [
         {
           text: "One last hit",
@@ -224,7 +224,7 @@ const textNodes = [
     {
       id: 9,
       text: "You have triumphed. The Uranium Emperor is now defeated. You are unkillable. Have you noticed that the only way to be GAME OVER is to start watching Netflix? Type: # Play again # if you want another walktrough.",
-      img: "./assets/won.png",
+      img: "./assets/images/won.png",
       options: [
         {
           text: "Play again",
@@ -237,7 +237,7 @@ const textNodes = [
     {
       id: 666,
       text: "GAME OVER! You cannot escape the Uranium Emperor. You can only defeat him. Type: # Try again # if you want another chance.",
-      img: "./assets/game_over.png",
+      img: "./assets/images/game_over.png",
       options: [
         {
           text: "Try again",
@@ -250,7 +250,7 @@ const textNodes = [
     {
       id: 600,
       text: "You are a super heroine. You are not scared. Jump and save the world! Type: # Move forward # because you have to go and move forward. It's your job!",
-      img: "./assets/not_jump.png",
+      img: "./assets/images/not_jump.png",
       options: [
         {
           text: "Move forward",
@@ -261,7 +261,7 @@ const textNodes = [
     {
       id: 601,
       text: "Phosphorus Woman is in her secret underground cave. Her decision is made. The entire world must be rescued. Type: # Move forward # because you have to go and move forward. It's your job!",
-      img: "./assets/cave.png",
+      img: "./assets/images/cave.png",
       options: [
         {
           text: "Move forward",
@@ -272,7 +272,7 @@ const textNodes = [
     {
       id: 602,
       text: "Being at home in the cave does not keep you happy. You have to save the world. Type: # Move forward # because you have to go and move forward. It's your job!",
-      img: "./assets/underground.png",
+      img: "./assets/images/underground.png",
       options: [
         {
           text: "Move forward",
@@ -283,7 +283,7 @@ const textNodes = [
     {
       id: 603,
       text: "Perfect. The Uranium Emperor could not hit you. Type: # Attack # to make an attack stronger then Arnold Schwarzenegger.",
-      img: "./assets/dodging1.png",
+      img: "./assets/images/dodging1.png",
       options: [
         {
           text: "Attack",
@@ -294,7 +294,7 @@ const textNodes = [
     {
       id: 604,
       text: "Perfect. The Uranium Emperor had no chance to hit you. Type: # Attack # to make an attack stronger then Jean Claude Van Damme.",
-      img: "./assets/dodging2.png",
+      img: "./assets/images/dodging2.png",
       options: [
         {
           text: "Attack",
