@@ -12,7 +12,6 @@ body {
 #background {
   width: 100%;
   height: auto;
-  /* no function anymore. But keep the idea. transition: background-image 0.3s ease-in-out; */
 }
 
   #container {

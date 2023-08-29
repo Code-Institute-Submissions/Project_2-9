@@ -145,94 +145,29 @@ The wireframe demonstrate that look:
 
 ## Testing User Stories
 
-### *Testing User Storie Starting the Game*
+Test every user story of the game with Function > Expected result  > Action taken > Result
+- Document each functional test with a screenshot
 
-### Expactation:
-The user should be able to begin the adventure and see the first text node displayed.
-
-### Test:
-- Open the game in the browser
-
-### Result:
-- The game initializes, and the first text node is shown along with the corresponding background image.
-
-### *Testing Uaer Storie Reading Story Text*
-
-### Expactation:
-The user should be able to read the context and storyline.
-
-### Test:
-- Observe the displayed story text
-
-### Result:
-- The story text is visible, providing the context and setting for the adventure.
-
-### *Testing User Storie Progressing in the Story*
-
-### Expactation:
-The user should be able to explore different paths and consequences.
-
-### Test:
-- Make choices and observe the story progression
-
-### Result:
-- The story unfolds based on choices, leading to different outcomes
-
-
-### *Testing User Storie Restarting the Game*
-
-### Expactation:
-The user should be able to replay the adventure from the beginning.
-
-### Test:
-- Reach an end point and choose to restart
-
-### Result:
-- The game resets, allowing a new playthrough of the adventure
-
-###  *Testing User Storie Navigating through the Story*
-
-### Expactation:
-The user should be able to easily navigate the story using choices.
-
-### Test:
-- Make choices and follow the storyline
-
-### Result:
-- Choices guide the narrative, enabling smooth navigation through the adventure
-
-### *Testing User Storie Changing Background Images*
-
-### Expactation:
-The user should be able to visualize changing scenes in the story.
-
-### Test:
-- Progress through the story and observe the background changes
-
-### Result:
-- Background images shift according to the narrative, enhancing scene visualization
+![user_testing](/assets/documentation/user_testing.png "user_testing")
 
 ## Testing Features
 
 Test every function of the game with Function > Expected result  > Action taken > Result
 - Document each functional test with a screenshot
 
-![user_testing](/assets/documentation/user_testing.png "user_testing")
+![feature_testing](/assets/documentation/feature_testing.png "eature_testing")
 
 ### Feature: Responsiveness
 
-- ### Expectation:
-The game should be responsive and adapt well to different screen sizes, including mobile devices and tablets.
+- In a previous iteration, I used media queries. The current version is perfectly responsive without the use of media queries, so I deleted them and noted this in the commits (commit a9282c1). The screenshots demonstrate the responsiveness.
 
-- ### Action:
-Access the game on various devices with different screen sizes with the dev tools and also with real devices.
-
-- ### Result:
-The game layout and content adjust appropriately to different screen sizes, ensuring a user-friendly experience without any content cutoff or overlapping.
-
-The screenshot is taken from a Samsung Galaxy S20
+#### The screenshot is taken from a Samsung Galaxy S20
 
 ![responsive_smartphone](/assets/documentation/responsive_smartphone.png "responsive_smartphone")
+
+#### General responsiveness
+
+![responsive_test](/assets/documentation/responsive_test.png "responsive_test")
 
 
 ## Not tested:

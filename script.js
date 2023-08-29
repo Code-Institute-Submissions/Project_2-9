@@ -5,7 +5,7 @@ Game.prototype.initialize = function () {
   };
 
   // Create an instance of the Game class
-var game = new Game();
+const game = new Game();
 // Initialize the game when the window loads
 window.onload = function () {
   game.initialize();
@@ -21,7 +21,7 @@ function Game() {
   // Display a text node
 Game.prototype.showTextNode = function (textNodeIndex) {
     // Find the text node with the specified index
-    var textNode = textNodes.find(function (node) {
+    const textNode = textNodes.find(function (node) {
       return node.id === textNodeIndex;
     });
 
