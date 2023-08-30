@@ -236,7 +236,7 @@ The website has been deployed on GitHub pages. The steps to deploy are as follow
 
 - In the "Source" section, I locate the dropdown menu that displays the currently selected branch.
 - The current selection might be "None"
-  .
+  
 #### Choose the Main Branch:
 
 - I click on the dropdown menu to see the available branch options.
