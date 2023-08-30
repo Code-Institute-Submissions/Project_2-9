@@ -218,12 +218,45 @@ The screenshot demonstrates the error handling problem within the german languag
 
 ![test_german](/assets/documentation/test_german.png "test_german")
 
-### Deployment:
+## Deployment:
 
 The website has been deployed on GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab.
-- Select the main branch from the source area dropdown menu.
-- Once the main branch is selected, the page will automatically refresh with a detailed ribbon display to indicate successful deployment.
+
+#### Navigate to Settings:
+
+- I'm on the main page of my GitHub repository.
+- At the top of the page, I click on the "Settings" tab.
+  
+#### Select GitHub Pages:
+
+- On the left side of the Settings page, I look for the "Pages" option.
+- I click on "Pages" to access the GitHub Pages settings.
+- 
+#### Change Source Branch:
+
+- In the "Source" section, I locate the dropdown menu that displays the currently selected branch.
+- The current selection might be "None"
+  .
+#### Choose the Main Branch:
+
+- I click on the dropdown menu to see the available branch options.
+- I select "main" from the list of branches.
+  
+#### Save Changes:
+
+- After selecting "main" as the source branch, I notice that a "Save" button appears.
+- I click on the "Save" button to apply the changes to the GitHub Pages settings.
+
+#### Final Deployment:
+- After a few minutes the page is finaly live.
+- The process of deployment can be watched in by clicking the "Actions" section inside the Navigation bar.
+- By clicking "pages build and deployment" the workflow of the deplyoment is shown within a new screen.
+
+  #### Additional Automated Deployment:
+- by using GitPod I also deployed the code automaticly in GitHub
+- by using the Terminal and the command "git push" the automated deployment process kicks in.
+
+  #### Page URL:
 - The link can be found here - https://renebaumann3000.github.io/Project_2/
 
 ## Credits:
